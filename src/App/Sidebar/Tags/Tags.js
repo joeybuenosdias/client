@@ -6,7 +6,7 @@ import styles from './Tags.module.css';
 
 export const Tags = ({ tags }) => {
     return (
-        <div>
+        <div className={styles.tags}>
             {tags.map((tag, index) => (
                 <button
                     className={styles.tag}

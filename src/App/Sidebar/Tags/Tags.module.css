@@ -1,12 +1,18 @@
+.tags {
+    padding: 24px 8px;
+    border-bottom: 1px solid #F8F8F8;
+}
+
 .tag {
     background-color: white;
     color: gray;
     border: 1px solid lightgray;
     border-radius: 5px;
     padding: 5px 10px;
+    margin: 4px 4px 0 0;
 }
 
 .tag:hover {
     cursor: pointer;
-    background-color: lightgray;
+    background-color: #F8F8F8;
 }

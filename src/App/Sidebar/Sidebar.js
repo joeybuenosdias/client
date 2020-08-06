@@ -19,7 +19,7 @@ export const Sidebar = ({
                 className={styles.hero}
             />
             <h3>{title}</h3>
-            <div>{subtitle}</div>
+            <div className={styles.subtitle}>{subtitle}</div>
             <Tags />
         </div>
     )
