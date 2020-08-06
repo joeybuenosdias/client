@@ -3,6 +3,11 @@ import { connect } from 'react-redux';
 
 /** components */
 import Header from './Header/Header';
+import Sidebar from './Sidebar/Sidebar';
+import Chart from './Chart/Chart';
+
+/** styles */
+import styles from './App.module.css'
 
 /** actions */
 import { fetchData } from './actions';
@@ -14,14 +19,16 @@ export const App = ({
   fetchData
 }) => {
   useEffect(() => {
-    console.log('fired')
     fetchData(data);
   }, []);
 
   return (
-    <div className="App">
-    <Header />
-      Hello world
+    <div className={styles.app}>
+      <Header />
+      <div className={styles.content}>
+        <Sidebar />
+        <Chart />
+      </div>
     </div>
   );
 }
