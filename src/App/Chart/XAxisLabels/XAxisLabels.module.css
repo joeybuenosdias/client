@@ -1,0 +1,8 @@
+.labels {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    padding: 16px 0;
+    border-top: 1px solid gainsboro;
+    margin: 16px 0;
+}

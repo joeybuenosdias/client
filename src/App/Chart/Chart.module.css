@@ -1,3 +1,21 @@
+.wrapper {
+    margin: 0 0 0 32px;
+    background-color: white;
+    width: 100%;
+    box-shadow: 4px 2px 4px 0 rgba(0,0,0,.2);
+    border-radius: 2px;
+    border: 1px solid #F8F8F8;
+    padding: 8px 24px;
+    color: lightgray;
+    padding: 32px 0 0 32px;
+}
+
+.title {
+    font-weight: 100;
+    font-size: 18px
+}
+
 .chart {
-    
+
+
 }

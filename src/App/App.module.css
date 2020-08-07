@@ -1,15 +1,11 @@
 .app {
     display: flex;
     flex-direction: column;
-    font-family: 'Josefin Sans', sans-serif;
     margin: 0 auto;
     max-width: 1400px;
     min-height: 100vh;
-    background-color: #F8F8F8;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .content {
-    flex-grow: 1;
     display: flex;
 }
