@@ -8,6 +8,7 @@ export const Header = () => {
     return (
         <header className={styles.header}>
             <img
+                alt="stackline"
                 src={stacklineLogo}
                 className={styles.logo}
             />

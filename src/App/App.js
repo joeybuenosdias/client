@@ -20,7 +20,7 @@ export const App = ({
 }) => {
   useEffect(() => {
     fetchData(data);
-  }, []);
+  }, [fetchData]);
 
   return (
     <div className={styles.app}>

@@ -9,14 +9,15 @@ import styles from './Sidebar.module.css';
 
 export const Sidebar = ({
     heroImage,
-    title,
     subtitle,
+    title,
 }) => {
     return (
         <div className={styles.sidebar}>
             <img
-                src={heroImage}
+                alt={`${title}`}
                 className={styles.hero}
+                src={heroImage}
             />
             <h3>{title}</h3>
             <div className={styles.subtitle}>{subtitle}</div>
@@ -27,8 +28,8 @@ export const Sidebar = ({
 
 const mapStateToProps = state => ({
     heroImage: state.app.image,
-    title: state.app.title,
     subtitle: state.app.subtitle,
+    title: state.app.title,
 })
 
 export default connect(mapStateToProps)(Sidebar);
